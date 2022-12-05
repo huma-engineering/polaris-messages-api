@@ -12,6 +12,7 @@ dhos-redis = "1.*"
 flask-batteries-included = {version = "3.*", extras = ["apispec", "pgsql"]}
 she-logging = "1.*"
 waitress = "2.*"
+wheel = "^0.38.1"
 
 [tool.poetry.dev-dependencies]
 bandit = "*"
